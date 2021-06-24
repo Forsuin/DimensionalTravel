@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "dimtrav",
+  "version": "${version}",
+
+  "name": "Dimensional Travel",
+  "description": "This mod aims to provide new dimensions that have procedurally generated characteristics",
+  "authors": [
+    "Forsuin"
+  ],
+  "contact": {
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/dimtrav/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.example.ExampleMod"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
